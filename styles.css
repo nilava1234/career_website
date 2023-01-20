@@ -4,13 +4,13 @@
     text-shadow:0 0 5px black;
     background-color: black;
 }
-.cate
+.header2
 {
     color: white;
     background-color: rgb(145, 145, 145);
     text-align: center;
 }
-.wrapper{
+.body{
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -52,7 +52,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-p{
+.intro{
     font-size: 2rem;
     padding: 2rem;
     background-color: #333;
@@ -64,9 +64,13 @@ p{
     width: auto;
 }
 .btn{
+    position: relative;
+    top: 25px;
+    left: 50px;
     background-color: #1512e2;
     color: white;
     cursor: pointer;
+    width: 10%;
 }
 .btn:hover
 {
@@ -74,4 +78,12 @@ p{
 }
 .a{
     position: relative;
+}
+.links{
+    position: relative;
+    border-color: white;
+    border-style: solid;
+    background-color: rgb(53, 0, 53);
+    height: 100px;
+    width: auto;
 }
