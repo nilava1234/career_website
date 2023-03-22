@@ -1,3 +1,12 @@
+.web_title
+{
+    font-size: 20px;
+    border: white;
+    border-style: solid;
+}
+a{
+    color:aqua; 
+}
 .title{
     font-size:7rem;
     color: white;
@@ -23,8 +32,10 @@ h2{
     height: auto;
     width: auto;
 }
-.header2
+.header1
 {
+    margin-top:  0;
+    margin-bottom: 0;
     color: white;
     background-color: rgb(145, 145, 145);
     text-align: center;
@@ -53,13 +64,13 @@ body{
 }
 
 .intro{
-    font-size: 2rem;
+    font-size: 20px;
     padding: 2rem;
     background-color: #333;
     color: white;
     padding: 10;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10;
     height: auto;
     width: auto;
 }
@@ -82,10 +93,10 @@ body{
     cursor: pointer;
     width: 10%;
 }
-.linked{
+.linked_in{
     position: relative;
     top: 25px;
     left: 50px;
     cursor: pointer;
-    width: 3%;
+    width: 3.3%;
 }
