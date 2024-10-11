@@ -1,0 +1,37 @@
+{
+    "version_1": [
+        {
+            "src": "child_pages/old_website.html"
+        }
+    ],
+    "resume": [
+        {
+            "src": "https://docs.google.com/document/d/1gz_jScYhXKNb1XZhTVFtSr2FPv1rZ6ArAObpSVtE9R8/edit?usp=sharing"
+        }
+    ],
+    "linked_in": [
+        {
+            "src": ""
+        }
+    ],
+    "current": [
+        {
+            "src": "child_pages/WIP.html"
+        }
+    ],
+    "work_website": [
+        {
+            "src": "https://nilava1234.github.io/outreach_website/"
+        }
+    ],
+    "game_engines": [
+        {
+            "src": "child_pages/WIP.html"
+        }
+    ],
+    "career_website": [
+        {
+            "src": "child_pages/WIP.html"
+        }
+    ]
+}
