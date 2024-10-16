@@ -9,29 +9,19 @@
             "src": "https://docs.google.com/document/d/1gz_jScYhXKNb1XZhTVFtSr2FPv1rZ6ArAObpSVtE9R8/edit?usp=sharing"
         }
     ],
-    "linked_in": [
-        {
-            "src": ""
-        }
-    ],
-    "current": [
-        {
-            "src": "child_pages/WIP.html"
-        }
-    ],
-    "work_website": [
+    "interactive_map": [
         {
             "src": "https://nilava1234.github.io/outreach_website/"
         }
     ],
-    "game_engines": [
+    "bio":[
         {
-            "src": "child_pages/WIP.html"
+            "src": "child_pages/bio.html"
         }
     ],
-    "career_website": [
+    "virtual_mouse":[
         {
-            "src": "child_pages/WIP.html"
+            "src":"child_pages/virtual_mouse.html"
         }
     ]
 }

@@ -1,5 +1,7 @@
 document.querySelectorAll('button').forEach(button => {
   button.addEventListener('click', function () {
+    var iframe = document.getElementById("website_frame");
+    iframe.src = "child_pages/WIP.html"
     fetch('data/website_lib.json')
       .then(response => {
         if (!response.ok) {
@@ -12,7 +14,6 @@ document.querySelectorAll('button').forEach(button => {
 
         if (!locationData || locationData.length === 0) return; // Early return if no data available
 
-        var iframe = document.getElementById("website_frame");
         iframe.src = locationData[0].src; // Update the iframe's src with the "src" field in JSON
       })
       .catch(error => {
