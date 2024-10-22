@@ -13,12 +13,12 @@ html, body {
 
 .container {
     display: flex;
-    height: 100vh;
+    height: 98vh;
     /* Full viewport height */
 }
 
 .directory {
-    flex: 0 0 12%;
+    flex: 0 0 15%;
     /* Takes up 20% of the width */
     background-color: #f0f0f0;
     padding: 0;
@@ -41,7 +41,7 @@ html, body {
 
 .iframe-content {
     align-self: center;
-    width: 100%;
+    width: 96.5%;
     height: 99.4%;
     border: none;
 }

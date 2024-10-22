@@ -14,10 +14,6 @@
             <!-- Embed external HTML file using iframe -->
             <ul>
                 <p>|-root</p>
-                <li>website_history
-                    <ul>
-                        <li><button>version_1</button></li>
-                    </ul>
                 </li>
                 <li>about_me
                     <ul>
@@ -28,8 +24,13 @@
                 </li>
                 <li>projects
                     <ul>
-                        <li><button>career_website*</button></li>
-                        <li><button>interactive_map*</button></li>
+                        <ul>|- <button>career_website</button>
+                            <li>website_history
+                                <ul>
+                                    <li><button>Legacy: V1</button></li>
+                                </ul></li>
+                            </ul>
+                        <li><button>interactive_map</button></li>
                         <li><button>discord_bot*</button></li>
                         <li><button>linux_server*</button></li>
                         <li><button>virtual_mouse*</button></li>
@@ -44,7 +45,7 @@
         </div>
         <div class="display">
             <!-- Content for the right half -->
-            <iframe id="website_frame" src="child_pages/old_website.html" class="iframe-content"></iframe>
+            <iframe id="website_frame" src="welcome.html" class="iframe-content"></iframe>
         </div>
     </div>
 

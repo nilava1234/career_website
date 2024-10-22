@@ -6,18 +6,25 @@ body {
     background-color: #dce0d9;
 }
 ul{
-    font-size: 14px;
+    font-size: 1em;
 }
 li span {
     font-style:oblique;
-    font-size: 13px;
+    font-size: 0.9em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .skill_div{
     display: flex;
     flex-direction: row;
 }
-.left{
+#classes, #pfp{
+    border-radius: 10px;
+    background-color: #ead7c3;
+
+    align-self: flex-start;
+    margin-right: 10px;
+}
+#classes, #pfp{
     border-radius: 10px;
     background-color: #ead7c3;
 

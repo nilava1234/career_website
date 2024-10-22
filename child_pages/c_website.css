@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack the divs vertically */
+    height: 98vh; /* Full viewport height */
+}
+
+div {
+    flex: 1; /* Each section will grow equally */
+    display: flex; /* Allow for centering of content inside */
+    flex-direction: column; /* Stack content inside each div */
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#top{
+    background-color: #4f4d46;
+}
+#mid{
+    background-color: #c9c5b1;
+}
+#bot{
+    background-color: #ede8d0;
+}

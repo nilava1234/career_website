@@ -1,5 +1,5 @@
 {
-    "version_1": [
+    "Legacy: V1": [
         {
             "src": "child_pages/old_website.html"
         }
@@ -11,7 +11,7 @@
     ],
     "interactive_map": [
         {
-            "src": "https://nilava1234.github.io/outreach_website/"
+            "src": "child_pages/interactive_map.html"
         }
     ],
     "bio":[
@@ -22,6 +22,11 @@
     "virtual_mouse":[
         {
             "src":"child_pages/virtual_mouse.html"
+        }
+    ],
+    "career_website":[
+        {
+            "src":"child_pages/career_website.html"
         }
     ]
 }

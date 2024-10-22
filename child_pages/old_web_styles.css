@@ -41,7 +41,7 @@ body{
     background-size: cover;
 }
 .body{
-    height: 100vh;
+    height: 98vh;
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
