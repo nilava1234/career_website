@@ -28,5 +28,10 @@
         {
             "src":"child_pages/career_website.html"
         }
+    ],
+    "discord_bot":[
+        {
+            "src":"child_pages/discord_bot.html"
+        }
     ]
 }
