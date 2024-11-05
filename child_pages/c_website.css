@@ -4,7 +4,6 @@ html, body {
     height: 100%; 
 }
 
-
 body {
     display: flex;
     flex-direction: column; /* Stack the divs vertically */
@@ -20,13 +19,62 @@ div {
     padding: 20px;
     box-sizing: border-box;
 }
+#top {
+    background-color: #b8d8e7; /* Light Blue - calming and soft */
+}
+#mid {
+    background-color: #e2d5c3; /* Warm Beige - neutral and inviting */
+}
+#bot {
+    background-color: #f5f1e6; /* Light Cream - soft and subtle */
+}
 
-#top{
-    background-color: #D1E9F6;
+/* Table styling */
+table.pcpp-part-list {
+    width: 90%; /* Adjust width as needed */
+    border-collapse: collapse; /* Remove gaps between table cells */
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
-#mid{
-    background-color: #c9c5b1;
+
+table.pcpp-part-list th, table.pcpp-part-list td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Light border around cells */
 }
-#bot{
-    background-color: #ede8d0;
+
+table.pcpp-part-list th {
+    background-color: #4CAF50; /* Header background color */
+    color: white; /* Header text color */
+    font-weight: bold;
+}
+
+table.pcpp-part-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background */
+}
+
+table.pcpp-part-list tbody tr:hover {
+    background-color: #f1f1f1; /* Hover effect */
+}
+
+/* Price link styling */
+table.pcpp-part-list a {
+    color: #0066cc; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+table.pcpp-part-list a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.pcpp-part-list-price-note, .pcpp-part-list-total {
+    font-weight: bold;
+    color: #333; /* Darker text color for clarity */
+}
+
+.pcpp-part-list-total-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4CAF50; /* Emphasize total price with color */
 }
