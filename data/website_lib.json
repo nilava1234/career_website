@@ -38,5 +38,10 @@
         {
             "src":"child_pages/linux_server.html"
         }
+    ],
+    "game_engines":[
+        {
+            "src":"child_pages/godot_game.html"
+        }
     ]
 }
