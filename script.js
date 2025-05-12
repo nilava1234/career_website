@@ -15,6 +15,14 @@ document.querySelectorAll('button').forEach(button => {
         if (!locationData || locationData.length === 0) return; // Early return if no data available
 
         iframe.src = locationData[0].src; // Update the iframe's src with the "src" field in JSON
+        if (this.textContent == "resume"){
+          iframe.class = ""
+          iframe.type = "application/pdf"
+        }else{
+          iframe.class = "iframe-content"
+          iframe.type = ""
+        }
+
       })
       .catch(error => {
         console.error('Error fetching the JSON file:', error);
