@@ -1,7 +1,7 @@
 body {
     display: flex;
-    height: 99vh;
-    width: 99vw;
+    height: 98vh;
+    width: 98vw;
     flex-direction: row;
     background-color: #dce0d9;
 }
@@ -49,5 +49,5 @@ li span {
 }
 .icon{
     height: auto;
-    width: 14px;
+    width: 5%;
 }
