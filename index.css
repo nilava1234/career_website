@@ -831,7 +831,7 @@ body {
     top: 235px;
     width: 363px;
     height: 363px;
-    background: url(me_fixed.png) no-repeat center center / cover;
+    background: url(img/me_fixed.png) no-repeat center center / cover;
     border-radius: 50%;
 }
 

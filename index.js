@@ -1,4 +1,4 @@
-fetch('bio.html')
+fetch('data/bio.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('page').innerHTML = data;
