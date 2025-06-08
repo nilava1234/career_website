@@ -1,5 +1,4 @@
-ul, li
-button {
+ul, li, button {
     all: unset
 }
 
@@ -57,17 +56,19 @@ button {
 html,
 body {
     margin: 0;
-    min-height: 100%;
-    min-width: 100%;
+    height: 100%;
+    width: 100%;
     padding: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100vw;
-    min-height: 100vh;
+    width: 100dvw;
+    height: 100vh;
+    height: 100dvh;
+    overflow: auto;
 }
 
 * {
@@ -184,6 +185,10 @@ body {
     top: 0px;
     width: 348.78px;
     height: 72.77px;
+}
+.tab_button:hover{
+    background: #00000054;
+    cursor: pointer;
 }
 
 /* list_socials */
