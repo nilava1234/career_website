@@ -176,7 +176,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 25px;
+    font-size: 1.3vw;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -211,7 +211,7 @@ body {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: auto;
+    height: 55px;
     background: #3e3e3fFF;
     border-radius: 0px 0px 0px 0px;
     display: flex;
@@ -223,118 +223,119 @@ body {
 }
 
 /* Linkedin */
-.linkedin-4aeb44e40426>svg {
+.linkedin-4aeb44e40426 > svg {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(0px, 0px);
+    top: 0vh;    /* 0px */
+    left: 0vw;   /* 0px */
+    transform: translate(0vw, 0vh);
 }
 
 .linkedin-4aeb44e40426 {
     position: relative;
-    width: 55px;
-    height: 55px;
-    border-radius: 0px;
+    width: 2.86vw;   /* 55 / 1920 * 100 ≈ 2.86vw */
+    height: 5.09vh;  /* 55 / 1080 * 100 ≈ 5.09vh */
+    border-radius: 0;
     flex-shrink: 0;
 }
 
 /* svg-path */
-.svgpath-4aeb44e40429>svg {
+.svgpath-4aeb44e40429 > svg {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(0px, 0px);
+    top: 0vh;
+    left: 0vw;
+    transform: translate(0vw, 0vh);
 }
 
 .svgpath-4aeb44e40429 {
     position: absolute;
-    left: 10px;
-    top: 12px;
-    width: 34.92px;
-    height: 33.38px;
+    left: 0.52vw;   /* 10 / 1920 * 100 ≈ 0.52vw */
+    top: 1.11vh;    /* 12 / 1080 * 100 ≈ 1.11vh */
+    width: 1.82vw;  /* 34.92 / 1920 * 100 ≈ 1.82vw */
+    height: 3.09vh; /* 33.38 / 1080 * 100 ≈ 3.09vh */
 }
 
 /* svg-path */
-.svgpath-4aeb44e40428>svg {
+.svgpath-4aeb44e40428 > svg {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(0px, 0px);
+    top: 0vh;
+    left: 0vw;
+    transform: translate(0vw, 0vh);
 }
 
 .svgpath-4aeb44e40428 {
     position: absolute;
-    left: 2px;
-    top: 3px;
-    width: 50.03px;
-    height: 50.03px;
+    left: 0.10vw;    /* 2 / 1920 * 100 ≈ 0.10vw */
+    top: 0.28vh;     /* 3 / 1080 * 100 ≈ 0.28vh */
+    width: 2.61vw;   /* 50.03 / 1920 * 100 ≈ 2.61vw */
+    height: 4.64vh;  /* 50.03 / 1080 * 100 ≈ 4.64vh */
 }
 
 /* base-background */
-.basebackg-4aeb44e40427>svg {
+.basebackg-4aeb44e40427 > svg {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(0px, 0px);
+    top: 0vh;
+    left: 0vw;
+    transform: translate(0vw, 0vh);
 }
 
 .basebackg-4aeb44e40427 {
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 93px;
-    height: 92px;
+    left: 0vw;       /* 0px */
+    top: 0vh;        /* 0px */
+    width: 4.84vw;   /* 93 / 1920 * 100 ≈ 4.84vw */
+    height: 8.52vh;  /* 92 / 1080 * 100 ≈ 8.52vh */
     display: none;
 }
 
 /* GitHub */
-.git-hub-4aeb27650258>svg {
+.git-hub-4aeb27650258 > svg {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(0px, 0px);
+    top: 0vh;
+    left: 0vw;
+    transform: translate(0vw, 0vh);
 }
 
 .git-hub-4aeb27650258 {
     position: relative;
-    width: 60px;
-    height: 55px;
-    border-radius: 0px;
+    width: 3.13vw;    /* 60 / 1920 * 100 ≈ 3.13vw */
+    height: 5.09vh;   /* 55 / 1080 * 100 ≈ 5.09vh */
+    border-radius: 0;
     flex-shrink: 0;
 }
 
 /* svg-path */
-.svgpath-4aeb2765025a>svg {
+.svgpath-4aeb2765025a > svg {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(0px, 0px);
+    top: 0vh;
+    left: 0vw;
+    transform: translate(0vw, 0vh);
 }
 
 .svgpath-4aeb2765025a {
     position: absolute;
-    left: 5px;
-    top: 3px;
-    width: 51.52px;
-    height: 50px;
+    left: 0.26vw;    /* 5 / 1920 * 100 ≈ 0.26vw */
+    top: 0.28vh;     /* 3 / 1080 * 100 ≈ 0.28vh */
+    width: 2.68vw;   /* 51.52 / 1920 * 100 ≈ 2.68vw */
+    height: 4.63vh;  /* 50 / 1080 * 100 ≈ 4.63vh */
 }
 
 /* base-background */
-.basebackg-4aeb27650259>svg {
+.basebackg-4aeb27650259 > svg {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(0px, 0px);
+    top: 0vh;
+    left: 0vw;
+    transform: translate(0vw, 0vh);
 }
 
 .basebackg-4aeb27650259 {
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 92px;
-    height: 92px;
+    left: 0vw;
+    top: 0vh;
+    width: 4.79vw;    /* 92 / 1920 * 100 ≈ 4.79vw */
+    height: 8.52vh;   /* 92 / 1080 * 100 ≈ 8.52vh */
     display: none;
 }
+
 
 /* skill_text_box */
 .skilltext-4ac5f3c2f84a {
@@ -373,7 +374,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: underline;
@@ -396,7 +397,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -419,7 +420,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -442,7 +443,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: underline;
@@ -465,7 +466,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -488,7 +489,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: underline;
@@ -511,7 +512,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -534,7 +535,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: underline;
@@ -558,7 +559,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: pre;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -620,7 +621,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 40px;
+    font-size: 3.7vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: underline;
@@ -643,7 +644,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: underline;
@@ -666,7 +667,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -689,7 +690,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -712,7 +713,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -735,7 +736,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -758,7 +759,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: underline;
@@ -781,7 +782,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -804,7 +805,7 @@ body {
     line-break: auto;
     overflow-wrap: initial;
     white-space: break-spaces;
-    font-size: 28px;
+    font-size: 2.5vh;
     text-rendering: geometricPrecision;
     caret-color: rgba(0, 0, 0, 1);
     text-decoration: none;
