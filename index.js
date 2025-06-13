@@ -27,3 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+function checkOrientation() {
+  const warning = document.getElementById('orientation-warning');
+  if (window.innerHeight > window.innerWidth) {
+    warning.style.display = 'flex'; // Portrait mode
+  } else {
+    warning.style.display = 'none'; // Landscape mode
+  }
+}
+
+window.addEventListener('resize', checkOrientation);
+window.addEventListener('orientationchange', checkOrientation);
+window.addEventListener('load', checkOrientation);
