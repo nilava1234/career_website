@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { faArrowUp, faE, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faArrowUp, faFileLines, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -286,6 +286,9 @@ export default function Home() {
                   </a>
                   <a href="mailto:nilavasaha10@gmail.com" className="hover:scale-145 transition-transform duration-200">
                     <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+                  </a>
+                  <a href="/file/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:scale-145 transition-transform duration-200">
+                    <FontAwesomeIcon icon={faFileLines} size="2x"/>
                   </a>
                 </div>
               </div>
