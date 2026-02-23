@@ -13,7 +13,7 @@ export default function Home() {
       backgroundRepeat: 'no-repeat',
     }}>
       {/*Navigation link to home page */}
-      <div id="tabs" className="flex flex-row ">
+      <div id="tabs" className="fixed top-0 left-0 right-0 z-50 flex flex-row ">
         {/* to home page */}
         <Link className="top-4 left-4 ml-4" href="/">
         <img className="hover:scale-110 transition-transform duration-200" src="/images/cat_logo.png" alt="Main Icon" width={50} height={50}/>
@@ -22,7 +22,7 @@ export default function Home() {
       
 
       {/* Main content area */}
-      <div className="flex min-h-screen min-w-screen justify-center items-center">
+      <div className="flex min-h-screen w-full justify-center items-center p-16">
         <main className="flex-1 flex flex-col p-24">
 
           {/* Dashboard title */}
