@@ -62,7 +62,7 @@ export default function Home() {
             <hr id="work-history" className="w-full max-w-xl self-center"></hr>
 
 
-            <section className="flex flex-1 gap-30">
+            <section className="flex flex-1 gap-30 flex flex-col lg:flex-row">
               
               <section className="backdrop-blur-md rounded-lg self-center">
                 <section>
