@@ -35,13 +35,13 @@ export default function Home() {
 
       {/* Main content area */}
       <div className="flex min-h-screen w-full font-space-grotesk justify-center pt-16">
-        <main className="flex-1 flex flex-col p-24">
+        <main id="about-me" className="flex-1 flex flex-col p-24">
 
           {/* Content section */}
           <section className="self-center flex flex-col gap-10">
             {/* Dashboard title */}
             <section className="w-full max-w-xl self-center">
-              <h1 id="about-me" className="text-2xl underline backdrop-blur-xl">About Me</h1>
+              <h1 className="text-2xl underline backdrop-blur-xl">About Me</h1>
               <section className="backdrop-blur-md rounded-lg self-center">
                 {/* Portfolio title and link */}
                 <div className="flex flex-row hover:scale-103 transition-transform duration-200 p-4">
@@ -59,14 +59,14 @@ export default function Home() {
             </section>
 
 
-            <hr className="w-full max-w-xl self-center"></hr>
+            <hr id="work-history" className="w-full max-w-xl self-center"></hr>
 
 
             <section className="flex flex-1 gap-30">
               
               <section className="backdrop-blur-md rounded-lg self-center">
                 <section>
-                <h1 id="work-history" className="text-2xl underline backdrop-blur-xl">Work</h1>
+                <h1 className="text-2xl underline backdrop-blur-xl">Work</h1>
                 <p className="text-sm">*Links attached to managers' profiles</p>
               </section>
                 {/* Portfolio title and link */}
@@ -115,11 +115,11 @@ export default function Home() {
                         in a project where they had to design, build, and program a machine that would help solve a real-world problem. It was rewarding to see the students learn and grow throughout the camp, and I was proud to be a part of their learning experience.
                         <br/><br/>
                         After my second summer with the program, I was <strong>scouted</strong> to continue working with them during the school year as an assistant teacher for the Program Coordinator for UTeach. In this role, I 
-                        assisted in teaching and mentoring college students pursuing a career in education in electrical engineering and computer science topics, so they have an easier time teaching those subjects to the students 
-                        of partnering elementary schools. I <strong>developed</strong> education videos going over in great detail on a low level on how each electrical component worked, wiring them together, and programming in functionality.
-                        As an additional project, I also contributed to <strong>developing a logistical website</strong> for the program that helps reduce onsite confusion when the college students are teaching the elementary school students. 
-                        The website provides a map of the schools with points of interest such as parking spots, front door entrances, office locations, and even videos showing how to access these points. The project was a success,
-                        With me developing the website and another TA creating the video, we were able to <strong>reduce on-site confusion by 100%</strong> according to the program coordinator, allowing them a smoother and more efficient teaching experience.
+                        assisted in teaching and mentoring college students pursuing a career in education in topics such as electrical engineering and computer science, so they have an easier time teaching those subjects to the students 
+                        of partnering elementary schools. I <strong>produced</strong> educational videos going over, on a low level, how each electrical component worked such as wiring them together and programming in functionality.
+                        As an additional project, I also contributed to <strong>developing a logistical website</strong> for the program that helps reduce onsite confusion when college students are deployed out to the elementary schools. 
+                        The website provides a map of the schools with points of interest such as parking spots, front door entrances, office locations, and even videos showing how to access these points. The project was a success!
+                        With me developing the website and another TA creating the video, we were able to <strong>reduce on-site confusion completely</strong>, according to the program coordinator, giving them a smoother and more efficient teaching experience.
                       </p>
                     </li>
                     <li className="">
@@ -148,7 +148,7 @@ export default function Home() {
               </section>
               <section className="backdrop-blur-md rounded-lg justify-center">
                 <section>
-                <h1 id="work-history" className="text-2xl underline backdrop-blur-xl">Education</h1>
+                <h1 className="text-2xl underline backdrop-blur-xl">Education</h1>
               </section>
                 {/* Portfolio title and link */}
                 <div className="flex flex-row w-full max-w-xl self-center p-1">
@@ -180,11 +180,11 @@ export default function Home() {
             </section>
 
 
-             <hr className="w-full max-w-xl self-center"></hr>
+             <hr id="projects" className="w-full max-w-xl self-center"></hr>
 
             <section className="backdrop-blur-md rounded-lg self-center">
                 <section>
-                <h1 id="projects" className="text-2xl underline backdrop-blur-xl">Projects</h1>
+                <h1  className="text-2xl underline backdrop-blur-xl">Projects</h1>
                 <p className="text-sm">*Links attached to project repositories</p>
               </section>
                 {/* Portfolio title and link */}
