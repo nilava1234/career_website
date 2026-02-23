@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { faArrowUp} from '@fortawesome/free-solid-svg-icons'
+import { faArrowUp, faE, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -13,29 +13,28 @@ export default function Home() {
       backgroundRepeat: 'no-repeat',
     }}>
       {/*Navigation link to home page */}
-      <div id="tabs" className="flex flex-row ">
-        {/* to home page */}
-        <Link className="top-4 left-4 ml-4" href="/">
-        <img className="hover:scale-110 transition-transform duration-200" src="/images/cat_logo.png" alt="Main Icon" width={50} height={50}/>
+      <div id="tabs" className="fixed top-0 left-0 right-0 z-50 flex flex-row">
+        <Link className="ml-4 flex items-center" href="/">
+          <img className="hover:scale-110 transition-transform duration-200" src="/images/cat_logo.png" alt="Main Icon" width={50} height={50}/>
         </Link>
-        <div className="center flex-1 flex gap-4 justify-center items-center text-center font-space-grotesk text-lg backdrop-blur-md rounded-lg">
+        <div className="flex-1 flex gap-4 justify-center items-center text-center font-space-grotesk text-lg backdrop-blur-md rounded-lg">
           <a href="#about-me">
             <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">About Me</h1>
           </a>
-          <span className="flex font-bold items-center justify-center">•</span>
+          <span className="font-bold">•</span>
           <a href="#work-history">
             <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">Work & Education</h1>
           </a>
-          <span className="flex font-bold items-center justify-center">•</span>
+          <span className="font-bold">•</span>
           <a href="#projects">
             <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">Projects</h1>
           </a>
-        </div> 
+        </div>
       </div>
       
 
       {/* Main content area */}
-      <div className="flex min-h-screen w-full font-space-grotesk justify-center">
+      <div className="flex min-h-screen w-full font-space-grotesk justify-center pt-16">
         <main className="flex-1 flex flex-col p-24">
 
           {/* Content section */}
@@ -45,7 +44,7 @@ export default function Home() {
               <h1 id="about-me" className="text-2xl underline backdrop-blur-xl">About Me</h1>
               <section className="backdrop-blur-md rounded-lg self-center">
                 {/* Portfolio title and link */}
-                <div className="flex flex-row hover:scale-103 transition-transform duration-200">
+                <div className="flex flex-row hover:scale-103 transition-transform duration-200 p-4">
                   <p className="flex flex-row text-lg self-left">
                     As of March 2025, I am a University of Texas alumnus. Graduated with a Bachelor of Science in Computer Science, I am currently seeking 
                     full-time software engineering opportunities. With experience in web development, cloud infrastructure, networking, and application development 
@@ -102,6 +101,9 @@ export default function Home() {
                         <h3 className="flex items-center justify-center">(Jun 2023 - Apr 2025)</h3>
                         <a href="https://www.linkedin.com/in/mary-conovan/" target="_blank" rel="noopener noreferrer" className=" flex items-center justify-center hover:scale-145 transition-transform duration-200 ml-1">
                           <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                        </a>
+                        <a href="https://github.com/MKConovan/outreach_website" target="_blank" rel="noopener noreferrer" className=" flex items-center justify-center hover:scale-145 transition-transform duration-200 ml-1">
+                          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                         </a>
                       </section>
                       <p className="hover:scale-101 transition-transform duration-200 p-8">
@@ -180,9 +182,114 @@ export default function Home() {
 
              <hr className="w-full max-w-xl self-center"></hr>
 
-            <section className="w-full max-w-xl self-center">
-              <h1 id="projects" className="text-2xl underline backdrop-blur-xl">Projects</h1>
-            </section>
+            <section className="backdrop-blur-md rounded-lg self-center">
+                <section>
+                <h1 id="projects" className="text-2xl underline backdrop-blur-xl">Projects</h1>
+                <p className="text-sm">*Links attached to project repositories</p>
+              </section>
+                {/* Portfolio title and link */}
+                <div className="flex flex-row w-full max-w-xl self-center p-1">
+                  <ul className="flex flex-col text-lg self-left gap-4">
+                    <li className="">
+                      <section className="flex flex-row gap-2">
+                        <span className="font-bold">•</span>
+                        <h1 className="font-bold">Auxiliary Discord Assistant\Mokey</h1>
+                        <a href="https://github.com/nilava1234/discord_bot_mokey" target="_blank" rel="noopener noreferrer" className="hover:scale-145 transition-transform duration-200 ml-1">
+                          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                        </a>
+                      </section>
+                      <p className="hover:scale-103 transition-transform duration-200 p-8">
+                      </p>
+                    </li>
+                    <li className="">
+                      <section className="flex flex-row gap-2">
+                        <span className="font-bold">•</span>
+                        <h1 className="font-bold">Operating System Development\PintOS</h1>
+                        <a href="https://github.com/nilava1234/PintOS_College" target="_blank" rel="noopener noreferrer" className="hover:scale-145 transition-transform duration-200 ml-1">
+                          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                        </a>
+                      </section>
+                      <p className="hover:scale-101 transition-transform duration-200 p-8">
+                      </p>
+                    </li>
+                    <li className="">
+                      <section className="flex flex-row gap-2">
+                        <section className="flex flex-row gap-2">
+                        <span className="font-bold">•</span>
+                        <h1 className="font-bold">Next.js Website\Personal Portfolio</h1>
+                        <a href="https://github.com/nilava1234/career_website" target="_blank" rel="noopener noreferrer" className="hover:scale-145 transition-transform duration-200 ml-1">
+                          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                        </a>
+                      </section>
+                      </section>
+                      <p className="hover:scale-103 transition-transform duration-200 p-8">
+                      </p>
+                    </li>
+                    <li className="">
+                      <section className="flex flex-row gap-2">
+                        <section className="flex flex-row gap-2">
+                        <span className="font-bold">•</span>
+                        <h1 className="font-bold">AI Development\Defining using LoRA </h1>
+                      </section>
+                      </section>
+                      <p className="hover:scale-103 transition-transform duration-200 p-8">
+                      </p>
+                    </li>
+                    <li className="">
+                      <section className="flex flex-row gap-2">
+                        <section className="flex flex-row gap-2">
+                        <span className="font-bold">•</span>
+                        <h1 className="font-bold">Amazon EC3 Server\Homebrew SQL Database</h1>
+                        <a href="https://github.com/nilava1234/SQL_Server" target="_blank" rel="noopener noreferrer" className="hover:scale-145 transition-transform duration-200 ml-1">
+                          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                        </a>
+                      </section>
+                      </section>
+                      <p className="hover:scale-103 transition-transform duration-200 p-8">
+                      </p>
+                    </li>
+                    <li className="">
+                      <section className="flex flex-row gap-2">
+                        <section className="flex flex-row gap-2">
+                        <span className="font-bold">•</span>
+                        <h1 className="font-bold">Android Studio\Music Player</h1>
+                        <a href="https://github.com/nilava1234/android_music_player" target="_blank" rel="noopener noreferrer" className="hover:scale-145 transition-transform duration-200 ml-1">
+                          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                        </a>
+                      </section>
+                      </section>
+                      <p className="hover:scale-103 transition-transform duration-200 p-8">
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <hr className="w-full max-w-xl self-center"></hr>
+
+            <section className="flex flex-row backdrop-blur-md rounded-lg self-center">
+              
+              <img 
+                src="/images/me_fixed.png" 
+                alt="Profile Picture" 
+                className="rounded-full w-32 h-32 object-cover"
+              />
+              <div className="flex flex-col justify-center ml-6">
+                <h1 className="text-2xl font-bold">B.S.c Nilava Saha</h1>
+                <p className="text-lg">Software Engineer</p>
+                <div className="flex flex-row gap-4 mt-2">
+                  <a href="https://www.linkedin.com/in/nilava-saha/" target="_blank" rel="noopener noreferrer" className="hover:scale-145 transition-transform duration-200">
+                    <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+                  </a>
+                  <a href="https://github.com/nilava1234" target="_blank" rel="noopener noreferrer" className="hover:scale-145 transition-transform duration-200">
+                    <FontAwesomeIcon icon={faGithub} size="2x"/>
+                  </a>
+                  <a href="mailto:nilavasaha10@gmail.com" className="hover:scale-145 transition-transform duration-200">
+                    <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+                  </a>
+                </div>
+              </div>
+              </section>
           </section>
           <a href="#" className="fixed bottom-4 right-4 bg-black/50 text-white p-3 rounded-full hover:scale-110 transition-transform duration-200">
             <FontAwesomeIcon icon={faArrowUp}/>

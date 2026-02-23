@@ -13,11 +13,11 @@ export default function Home() {
       backgroundRepeat: 'no-repeat',
     }}>
       {/*Navigation link to home page */}
-      <div id="tabs" className="flex flex-row gap-4 p-4">
+      <div id="tabs" className="flex flex-row ">
         {/* to home page */}
-        <Link className="top-4 left-4" href="/">
+        <Link className="top-4 left-4 ml-4" href="/">
         <img className="hover:scale-110 transition-transform duration-200" src="/images/cat_logo.png" alt="Main Icon" width={50} height={50}/>
-        </Link>       
+        </Link>
       </div>
       
 
