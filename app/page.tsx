@@ -7,7 +7,7 @@ export default function Home() {
   return (
     
     <div className="" style={{
-      backgroundImage: "url('/images/background.avif')",
+      backgroundImage: "linear-gradient(to bottom right, rgba(255, 255, 255, 0.5), rgba(53, 53, 53, 0.61))",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',

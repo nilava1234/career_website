@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family:  Arial, Helvetica, sans-serif;
 }
+.hover-text-shadow:hover {
+  text-shadow: 10px 10px 10px rgba(56, 56, 56, 0.8);
+  transition: text-shadow 0.2s ease;
+}
