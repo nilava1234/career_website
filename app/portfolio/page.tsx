@@ -14,23 +14,23 @@ export default function Home() {
     }}>
       {/*Navigation link to home page */}
       <div id="tabs" className="fixed top-0 left-0 right-0 z-50 flex flex-row">
-        <Link className="ml-4 flex items-center" href="/">
-          <img className="hover:scale-110 transition-transform duration-200" src="/images/cat_logo.png" alt="Main Icon" width={50} height={50}/>
-        </Link>
-        <div className="flex-1 flex gap-4 justify-center items-center text-center font-space-grotesk text-lg backdrop-blur-md rounded-lg">
-          <a href="#about-me">
-            <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">About Me</h1>
-          </a>
-          <span className="font-bold">•</span>
-          <a href="#work-history">
-            <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">Work & Education</h1>
-          </a>
-          <span className="font-bold">•</span>
-          <a href="#projects">
-            <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">Projects</h1>
-          </a>
-        </div>
+      <Link className="ml-2 lg:ml-4 flex items-center" href="/">
+        <img className="hover:scale-110 transition-transform duration-200" src="/images/cat_logo.png" alt="Main Icon" width={35} height={35}/>
+      </Link>
+      <div className="flex-1 flex gap-2 lg:gap-4 justify-center items-center text-center font-space-grotesk text-sm lg:text-lg backdrop-blur-md rounded-lg">
+        <a href="#about-me">
+          <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">About Me</h1>
+        </a>
+        <span className="font-bold">•</span>
+        <a href="#work-history">
+          <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">Work & Education</h1>
+        </a>
+        <span className="font-bold">•</span>
+        <a href="#projects">
+          <h1 className="hover-text-shadow hover:scale-110 transition-transform duration-200">Projects</h1>
+        </a>
       </div>
+    </div>
       
 
       {/* Main content area */}
@@ -46,7 +46,7 @@ export default function Home() {
                 {/* Portfolio title and link */}
                 <div className="flex flex-row hover:scale-103 transition-transform duration-200 p-4">
                   <p className="flex flex-row text-lg self-left">
-                    As of March 2025, I am a University of Texas alumnus. Graduated with a Bachelor of Science in Computer Science, I am currently seeking 
+                    As of May 2025, I am a University of Texas alumnus. Graduated with a Bachelor of Science in Computer Science, I am currently seeking 
                     full-time software engineering opportunities. With experience in web development, cloud infrastructure, networking, and application development 
                     I am eager to apply my skills and knowledge to contribute to innovative projects and grow as a software engineer.
                     <br/><br/>
@@ -160,10 +160,10 @@ export default function Home() {
                         <span className="font-bold">•</span>
                         <h2 className="underline">Computer Science</h2>
                         <span className="font-bold">•</span>
-                        <h3>(Aug 2021 - March 2025)</h3>
+                        <h3>(Aug 2021 - May 2025)</h3>
                       </section>
                       <p className="hover:scale-103 transition-transform duration-200 p-8">
-                        I attended the University of Texas at Austin from August 2021 to March 2025, where I earned a Bachelor of Science in Computer Science. 
+                        I attended the University of Texas at Austin from August 2021 to May 2025, where I earned a Bachelor of Science in Computer Science. 
                         During my time at UT, I had the opportunity to take a variety of computer science courses that helped me develop a strong foundation in the field.
                         My most <strong>defining moments</strong> at UT were building and expanding an <strong>operating system</strong> within a semester-long course, <strong>researching graphical computation</strong> speeds
                         using <strong>OpenGL</strong> to identify possible bottlenecks or improvements by measuring computation time within each coding language and <strong>CPU architecture</strong>, and <strong>cloud 
